@@ -1,34 +1,11 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
-Deploy Ruby on Rails into an AWS EC2 Instance
-# Connect to your instance from your terminal
+Deploy Ruby on Rails en una Instancia de AWS EC2
+# Connectar la instancia en tu terminal
 ssh -i /path_to_the_file/file_name.pem ubuntu@ip # Public IP From EC2 Instance
 # When running this after the first download, it will through an error
 # It will say that this instance isn't secure, for that will run
-# The following cmd
+# El siguiente cmd
 chmod 400 /Downloads/example-key-1.pem
 # Because the Pen file doesn't have the right permission to execute it
 # Then will be able to log with the last command
